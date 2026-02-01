@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amur Leopard</title>
+
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<style>
+header {
+  height: 70px;
+  background: #195221;
+  color: rgb(183, 213, 164);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  height: 60px;
+  background: #195221;
+  color: rgb(183, 213, 164);
+  text-align: center;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 5
+}
+/* ===== BASIC RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ===== FULL SCREEN HERO ===== */
+.hero {
+  width: 100vw;
+  height: 139vh;
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 100px;
+}
+
+/* ===== OVERLAY ===== */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+/* ===== TITLE OUTLINE ===== */
+.content h4 {
+  font-size: 30px;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+.content h1 {
+  font-size: 43px;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+
+/* ===== PARAGRAPH ===== */
+.content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 20px;
+  z-index: 6
+}
+
+/* ===== BACK BUTTON ===== */
+.back {
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+  z-index: 10;
+}
+
+/* ===== BACKGROUND IMAGE PER ANIMAL ===== */
+
+.leopard {
+  background-image: url("images/amurleopard.png");
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px; }
+</style>
+</head>
+
+<body>
+<header>
+  <a href="arcavietii.html" class="logo">
+    <img src="images/logo.png">
+    <span>Animale pe cale de dispariție</span>
+  </a>
+
+  <nav>
+    <a href="arcavietii.html">Acasă</a>
+    
+    <a href="#">Despre</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero leopard">
+  <div class="content">
+    <h1>Leopard Amur</h1>
+    <p>
+     De obicei, oamenii se gândesc la leoparzi în savanele Africii, dar în Extremul Orient rus, 
+     o subspecie rară s-a adaptat la viața în pădurile temperate care alcătuiesc partea cea mai nordică a arealului de răspândire 
+      speciei. Similar altor leoparzi, leopardul de Amur poate alerga cu viteze de până la 60 de kilometri pe oră. 
+     S-a raportat că acest animal incredibil poate sări peste 5 metri pe orizontală și până la 3 metri pe verticală.
+     Leopardul de Amur este solitar. S-a raportat că unii masculi rămân cu femelele după împerechere și pot chiar
+      ajuta la creșterea puilor. Trăiesc 10-15 ani, iar în 
+      captivitate până la 20 de ani. 
+    </p>
+
+    <h4>Amenințări:</h4>
+   <p>
+   Printre amenințările majore la adresa supraviețuirii câinilor sălbatici se numără uciderile accidentale și țintite de către oameni,
+   bolile virale precum rabia și jigodia, pierderea habitatului și concurența cu prădători mai mari, precum leii. 
+   Conflictele apar atunci când câinii sălbatici intră în contact cu oameni ale căror mijloace de trai se bazează în mare 
+   măsură pe creșterea animalelor și agricultură. 
+   Leopardul de Amur este braconat în principal pentru blana sa frumoasă, pătată. 
+   În 1999, o echipă de investigații sub acoperire a recuperat o piele de leopard de Amur, femelă și un mascul, 
+   care erau vândute cu 500, respectiv 1.000 de dolari în satul Barabash, nu departe de rezervația Kedrovaya Pad din Rusia. 
+   Agricultura și satele înconjoară pădurile în care trăiesc leoparzii. Drept urmare, pădurile sunt relativ accesibile, 
+   ceea ce face ca braconajul să fie o problemă - nu numai pentru leoparzi înșiși, ci și pentru specii de pradă importante, 
+   cum ar fi căprioarele, cerbii sika și iepurele de câmp, care sunt vânate de săteni atât pentru hrană, cât și pentru bani.
+   </p>
+  </div>
+</section>
+<footer>
+  <p>Contact: arcavietii@animale.org</p>
+  <p>Proiect realizat de Sofia Cantemir, clasa 11-a "B"</p>
+</footer>
+</body>
+</html>
+
