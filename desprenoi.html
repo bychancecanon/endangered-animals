@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Despre Noi</title>
+
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<style>
+header {
+  height: 70px;
+  background: #195221;
+  color: rgb(183, 213, 164);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+footer {
+  height: 60px;
+  background: #195221;
+  color: rgb(183, 213, 164);
+  text-align: center;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 5
+}
+/* ===== BASIC RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand';
+}
+
+/* ===== FULL SCREEN HERO ===== */
+.hero {
+  width: 105vw;
+  height: 125vh;
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  padding: 100px;
+}
+
+/* ===== OVERLAY ===== */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+/* ===== CONTENT ===== */
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+/* ===== TITLE OUTLINE ===== */
+.content h4 {
+  font-size: 25px;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+.content h1 {
+  font-size: 43px;
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+}
+
+/* ===== PARAGRAPH ===== */
+.content p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* ===== BACK BUTTON ===== */
+.back {
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+/* ===== BACKGROUND IMAGE PER ANIMAL ===== */
+.despre {
+  background-image: url("images/wilderness.png");
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px; }
+</style>
+</head>
+
+<body>
+<header>
+  <a href="index.html" class="logo">
+    <img src="images/logo.png">
+    <span>Animale pe cale de dispariție</span>
+  </a>
+
+  <nav>
+    <a href="index.html">Acasă</a>
+    
+    <a href="desprenoi.html">Despre</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero despre">
+  <div class="content">
+    <h1>Despre Noi:</h1>
+    <p>
+      Misiunea noastră este să construim un viitor în care oamenii să trăiască în armonie cu natura. 
+      Pentru a îndeplini această misiune, lucrăm pentru conservarea și restaurarea biodiversității, 
+      rețeaua care susține întreaga viață de pe Pământ; pentru reducerea amprentei ecologice a umanității;
+       și pentru asigurarea utilizării durabile a resurselor naturale pentru a sprijini generațiile actuale și viitoare.
+       Pe măsură ce biodiversitatea scade, impactul climatic crește și ecosistemele vitale dispar, viitorul naturii și a 
+       tot ceea ce oferă ea este în pericol. Însăși temelia civilizației umane - delicata rețea de viață a planetei noastre - atârnă de un 
+       echilibru.
+    </p>
+   
+    <a href="index.html" class="back">←Pagina Principală</a>
+  </div>
+</section>
+<footer>
+  <p>Contact: arcavietii@animale.org</p>
+  <p>Proiect realizat de Sofia Cantemir, clasa 11-a "B"</p>
+</footer>
+</body>
+</html>
